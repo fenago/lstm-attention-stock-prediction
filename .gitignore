@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model files (INCLUDED in repo for convenience)
+# *.h5
+# *.pkl
+# Note: Including pre-trained models for users
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data and results (optional - exclude large CSV files)
+validation_results.csv
+
+# Temporary files
+*.tmp
+*.log
