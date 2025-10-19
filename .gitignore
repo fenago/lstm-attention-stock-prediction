@@ -4,35 +4,59 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
 venv/
 ENV/
-*.egg-info/
-dist/
-build/
+env/
+.venv
 
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb_checkpoints
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
 
-# Model files (INCLUDED in repo for convenience)
-# *.h5
-# *.pkl
-# Note: Including pre-trained models for users
-
-# OS
-.DS_Store
-Thumbs.db
-
-# IDE
-.vscode/
+# PyCharm
 .idea/
-*.swp
-*.swo
 
-# Data and results (optional - exclude large CSV files)
-validation_results.csv
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Models and Data (too large for git)
+*.h5
+*.pkl
+*.hdf5
+*.joblib
 
 # Temporary files
-*.tmp
 *.log
+*.tmp
+*.temp
+
+# Environment variables
+.env
+.env.local
+
+# Test outputs
+test_output/
+temp_models/
